@@ -1,0 +1,9 @@
+computers:
+- Lenovo
+- HP
+- Asus
+prices:
+  ASsus: 5000S
+  HP: 40000$
+  Lenovo: 30000$
+quantity: 3
