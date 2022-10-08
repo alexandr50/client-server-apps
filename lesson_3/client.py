@@ -1,4 +1,7 @@
+
 import sys
+import os
+sys.path.append(r"/home/alexandr/PycharmProjects/client-server-appps/lesson_3")
 import json
 import socket
 import time
