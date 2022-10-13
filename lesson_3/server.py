@@ -1,11 +1,17 @@
 import socket
 import sys
 import json
+import logging
+import logs.config_server_log
 from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
 from common.utils import get_message, send_message
 
-def client_message(message):
 
+SERVER_LOGGER = logging.getLogger('server')
+
+
+def client_message(message):
+    SERVER_LOGGER.debug(f'Разбор сообщения от клиента : {message}')
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
         return {RESPONSE: 200}
     return {
@@ -46,16 +52,22 @@ def main():
     trans.listen(MAX_CONNECTIONS)
 
     while True:
-        client, client_addres = trans.accept()
+        client, client_address = trans.accept()
+        SERVER_LOGGER.info(f'Установлено соедение с ПК {client_address}')
         try:
             message_from_client = get_message(client)
+            SERVER_LOGGER.debug(f'Получено сообщение {message_from_client}')
             print(message_from_client)
             response = client_message(message_from_client)
+            SERVER_LOGGER.info(f'Сформирован ответ клиенту {response}')
             send_message(client, response)
+            SERVER_LOGGER.debug(f'Соединение с клиентом {client_address} закрывается.')
             client.close()
-        except (ValueError, json.JSONDecodeError):
-            print('Принято некорректное сообщение от клиента.')
+        except json.JSONDecodeError:
+            SERVER_LOGGER.error(f'Не удалось декодировать Json строку, полученную от '
+                                f'клиента {client_address}. Соединение закрывается.')
             client.close()
+
 
 
 if __name__ == '__main__':

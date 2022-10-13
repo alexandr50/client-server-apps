@@ -1,4 +1,4 @@
-
+import logging
 # дефолтный порт по умолчанию
 DEFAULT_PORT = 7777
 
@@ -12,6 +12,7 @@ MAX_CONNECTIONS = 10
 MAX_PACKAGE_LENGTH = 1024
 
 ENCODING = 'utf-8'
+LOGGING_LEVEL = logging.DEBUG
 
 # основные ключи
 ACTION = 'action'
