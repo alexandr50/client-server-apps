@@ -1,4 +1,4 @@
-
+from decorator import log
 import sys
 import os
 sys.path.append(r"/home/alexandr/PycharmProjects/client-server-appps/lesson_3")
@@ -13,6 +13,7 @@ from common.utils import get_message, send_message
 
 
 CLIENT_LOGGER = logging.getLogger('client')
+@log
 def create_presence(account_name='Guest'):
     out = {
         ACTION: PRESENCE,
@@ -24,6 +25,8 @@ def create_presence(account_name='Guest'):
     CLIENT_LOGGER.debug(f'Сформировано {PRESENCE} сообщение для пользователя {account_name}')
     return out
 
+
+@log
 def process_answer(message):
     CLIENT_LOGGER.debug(f'Разбор сообщения от сервера: {message}')
     if RESPONSE in message:
@@ -32,6 +35,8 @@ def process_answer(message):
         return f'400 : {message[ERROR]}'
     raise ValueError
 
+
+@log
 def create_arg_parser():
     """
     Создаём парсер аргументов коммандной строки

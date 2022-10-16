@@ -5,11 +5,12 @@ import logging
 import logs.config_server_log
 from common.variables import ACTION, ACCOUNT_NAME, RESPONSE, MAX_CONNECTIONS, PRESENCE, TIME, USER, ERROR, DEFAULT_PORT
 from common.utils import get_message, send_message
-
+from decorator import log
 
 SERVER_LOGGER = logging.getLogger('server')
 
 
+@log
 def client_message(message):
     SERVER_LOGGER.debug(f'Разбор сообщения от клиента : {message}')
     if ACTION in message and message[ACTION] == PRESENCE and TIME in message and USER in message and message[USER][ACCOUNT_NAME] == 'Guest':
