@@ -1,0 +1,6 @@
+2022-10-16 16:21:15,978 INFO     server.py Установлено соедение с ПК ('127.0.0.1', 48836)
+2022-10-16 16:21:15,979 DEBUG    server.py Получено сообщение {'action': 'presence', 'time': 1665926475.9782426, 'user': {'account_name': 'Guest'}}
+2022-10-16 16:21:15,979 DEBUG    server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1665926475.9782426, 'user': {'account_name': 'Guest'}}
+2022-10-16 16:21:15,981 DEBUG    server.py Была вызвана функция client_message с параметрами ({'action': 'presence', 'time': 1665926475.9782426, 'user': {'account_name': 'Guest'}},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/server.py
+2022-10-16 16:21:15,982 INFO     server.py Сформирован ответ клиенту {'response': 200}
+2022-10-16 16:21:15,982 DEBUG    server.py Соединение с клиентом ('127.0.0.1', 48836) закрывается.
