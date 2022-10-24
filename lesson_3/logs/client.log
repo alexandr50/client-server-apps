@@ -1,0 +1,158 @@
+2022-10-13 13:17:43,113 CRITICAL config_client_log.py Критическая ошибка
+2022-10-13 13:17:43,113 ERROR    config_client_log.py Ошибка
+2022-10-13 13:17:43,113 DEBUG    config_client_log.py Отладочная информация
+2022-10-13 13:17:43,113 INFO     config_client_log.py Информационное сообщение
+2022-10-13 13:54:22,748 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2022-10-13 13:54:22,749 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-13 13:54:22,749 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-13 14:05:01,467 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2022-10-13 14:05:01,467 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-13 14:05:01,468 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-16 16:14:31,830 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}Вызов из модуля __main__Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-16 16:14:31,831 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2022-10-16 16:14:31,831 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-16 16:14:31,831 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}Вызов из модуля __main__Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-16 16:14:31,835 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-16 16:14:31,835 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}Вызов из модуля __main__Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-16 16:21:15,977 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-16 16:21:15,977 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777
+2022-10-16 16:21:15,978 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-16 16:21:15,978 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-16 16:21:15,982 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-16 16:21:15,982 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:05:25,666 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:06:52,520 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:07:49,626 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:08:06,358 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:08:06,358 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:08:06,358 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:08:30,780 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:08:30,780 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:08:30,780 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:08:30,780 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:08:30,781 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:08:30,781 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:08:30,781 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:10:08,872 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:10:08,872 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:10:08,872 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:10:08,873 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:10:08,873 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:10:08,873 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:10:08,873 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:36:04,544 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:36:04,544 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:36:04,544 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:36:04,544 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:36:04,545 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:36:04,545 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:36:04,545 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:40:48,774 INFO     server.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:40:48,775 CRITICAL server.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:41:19,836 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:41:19,836 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:41:19,837 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:41:51,494 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:41:51,494 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:41:51,494 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:41:57,084 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:41:57,084 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:41:57,085 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:42:42,425 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:42:42,425 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:42:42,425 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:42:53,076 INFO     server.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:43:45,703 CRITICAL server.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:48:15,937 INFO     server.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:48:15,937 CRITICAL server.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 15:49:41,583 INFO     server.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:51:59,826 INFO     server.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:55:49,106 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:55:49,106 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:55:49,106 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:55:49,106 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:55:49,106 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:55:49,107 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:55:49,107 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:57:16,743 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,746 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-19 15:57:16,746 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:57:16,747 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,967 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,967 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-19 15:57:16,967 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:57:16,967 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,968 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:57:16,968 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,968 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:57:16,968 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:57:16,968 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:16,968 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:57:17,268 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,268 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:57:17,268 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:57:17,268 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,269 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:57:17,269 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,269 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 15:57:17,460 DEBUG    client.py Была вызвана функция create_arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,460 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 15:57:17,460 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 15:57:17,460 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,961 DEBUG    client.py Разбор сообщения от сервера: {'response': 200}
+2022-10-19 15:57:17,962 DEBUG    client.py Была вызвана функция process_answer с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 15:57:17,962 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:01:30,391 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:01:30,392 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 16:01:30,392 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-19 16:01:44,575 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:01:44,575 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 16:01:44,575 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 16:01:44,575 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:01:44,576 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-19 16:01:44,576 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:01:44,576 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:02:50,150 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,150 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-19 16:02:50,151 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 16:02:50,151 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,585 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,586 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-19 16:02:50,587 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-19 16:02:50,588 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,588 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:02:50,593 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 16:02:50,594 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,841 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,841 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 16:02:50,842 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-19 16:02:50,843 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,843 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 16:02:50,843 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:02:50,844 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,985 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,985 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-19 16:02:50,986 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-19 16:02:50,987 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:50,987 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:02:50,987 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-19 16:02:50,987 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:51,488 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-19 16:02:51,488 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:02:51,488 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-19 16:04:08,648 DEBUG    client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666184648.6487584, 'account_name': 'Guest', 'mess_text': 'fgbcgbcgb'}
+2022-10-19 16:04:08,649 DEBUG    client.py Была вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41606), raddr=('127.0.0.1', 7777)>,) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:04:09,092 INFO     client.py Получено сообщение от пользователя Guest:
+fgbcgbcgb
+2022-10-19 16:04:09,092 INFO     client.py Получено сообщение от пользователя Guest:
+fgbcgbcgb
+2022-10-19 16:04:09,092 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184649.091983, 'mess_text': 'fgbcgbcgb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:04:09,093 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184649.091983, 'mess_text': 'fgbcgbcgb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:04:16,637 DEBUG    client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666184656.637335, 'account_name': 'Guest', 'mess_text': 'svdfvdfxgfb'}
+2022-10-19 16:04:16,638 DEBUG    client.py Была вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41594), raddr=('127.0.0.1', 7777)>,) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:04:17,104 INFO     client.py Получено сообщение от пользователя Guest:
+svdfvdfxgfb
+2022-10-19 16:04:17,104 INFO     client.py Получено сообщение от пользователя Guest:
+svdfvdfxgfb
+2022-10-19 16:04:17,104 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184657.1037807, 'mess_text': 'svdfvdfxgfb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-19 16:04:17,104 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184657.1037807, 'mess_text': 'svdfvdfxgfb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py

@@ -1,0 +1,25 @@
+{
+    "orders": [
+        {
+            "item": "laptop",
+            "quatity": "2",
+            "price": "40000",
+            "buyer": "alex",
+            "date": "12.12.12"
+        },
+        {
+            "item": "laptop",
+            "quatity": "2",
+            "price": "40000",
+            "buyer": "alex",
+            "date": "12.12.12"
+        },
+        {
+            "item": "phone",
+            "quatity": "5",
+            "price": "50000",
+            "buyer": "fill",
+            "date": "12.12. 12"
+        }
+    ]
+}
