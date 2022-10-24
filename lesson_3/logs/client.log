@@ -156,3 +156,68 @@ svdfvdfxgfb
 svdfvdfxgfb
 2022-10-19 16:04:17,104 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184657.1037807, 'mess_text': 'svdfvdfxgfb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
 2022-10-19 16:04:17,104 DEBUG    client.py Была вызвана функция message_from_server с параметрами ({'action': 'message', 'sender': 'Guest', 'time': 1666184657.1037807, 'mess_text': 'svdfvdfxgfb'},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:03:57,363 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:03:57,363 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-24 20:03:57,363 CRITICAL client.py Не удалось подключиться к серверу 127.0.0.1:7777, конечный компьютер отверг запрос на подключение.
+2022-10-24 20:04:09,076 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,077 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-24 20:04:09,077 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-24 20:04:09,077 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,420 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,420 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: send
+2022-10-24 20:04:09,421 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-24 20:04:09,421 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,422 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-24 20:04:09,422 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,422 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-24 20:04:09,423 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-24 20:04:09,423 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,423 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-24 20:04:09,424 DEBUG    client.py Запущены процессы
+2022-10-24 20:04:09,424 DEBUG    client.py Запущены процессы
+2022-10-24 20:04:09,650 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,650 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-24 20:04:09,651 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-24 20:04:09,651 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,904 DEBUG    client.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,904 INFO     client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2022-10-24 20:04:09,905 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-24 20:04:09,905 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,906 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-24 20:04:09,906 DEBUG    client.py Сформировано presence сообщение для пользователя Guest
+2022-10-24 20:04:09,906 DEBUG    client.py Была вызвана функция create_presence с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:09,907 DEBUG    client.py Запущены процессы
+2022-10-24 20:04:10,407 DEBUG    client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2022-10-24 20:04:10,407 DEBUG    client.py Была вызвана функция process_response_ans с параметрами ({'response': 200},) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:04:10,407 INFO     client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-10-24 20:04:10,408 DEBUG    client.py Запущены процессы
+2022-10-24 20:05:41,535 DEBUG    client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666631141.5350635, 'to': 'Guest', 'account_name': 'send', 'mess_text': 'hi'}
+2022-10-24 20:05:41,535 INFO     client.py Отправлено сообщение для пользователя Guest
+2022-10-24 20:05:41,541 DEBUG    client.py Была вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48768), raddr=('127.0.0.1', 7777)>, 'send') {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:05:42,026 INFO     client.py Получено сообщение от пользователя send:
+hi
+2022-10-24 20:05:42,026 INFO     client.py Получено сообщение от пользователя send:
+hi
+2022-10-24 20:05:42,026 INFO     client.py Получено сообщение от пользователя send:
+hi
+2022-10-24 20:05:42,026 INFO     client.py Получено сообщение от пользователя send:
+hi
+2022-10-24 20:06:35,147 DEBUG    client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1666631195.1478307, 'to': 'fill', 'account_name': 'send', 'mess_text': 'f'}
+2022-10-24 20:06:35,148 INFO     client.py Отправлено сообщение для пользователя fill
+2022-10-24 20:06:35,148 DEBUG    client.py Была вызвана функция create_message с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48768), raddr=('127.0.0.1', 7777)>, 'send') {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:06:35,598 INFO     client.py Получено сообщение от пользователя send:
+f
+2022-10-24 20:06:35,598 INFO     client.py Получено сообщение от пользователя send:
+f
+2022-10-24 20:06:35,598 INFO     client.py Получено сообщение от пользователя send:
+f
+2022-10-24 20:06:35,598 INFO     client.py Получено сообщение от пользователя send:
+f
+2022-10-24 20:06:43,437 DEBUG    client.py Была вызвана функция create_exit_message с параметрами ('send',) {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/client.py
+2022-10-24 20:06:43,437 INFO     client.py Завершение работы по команде пользователя.
+2022-10-24 20:06:43,608 ERROR    client.py Получено некорректное сообщение с сервера: {'response': 400, 'error': 'Bad Request'}
+2022-10-24 20:06:43,938 DEBUG    threading.py Была вызвана функция user_interactive с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48768), raddr=('127.0.0.1', 7777)>, 'send') {}.Вызов из модуля __main__.Вызов из функции /usr/lib/python3.10/threading.py
+2022-10-24 20:06:50,940 CRITICAL client.py Потеряно соединение с сервером.
+2022-10-24 20:06:50,940 CRITICAL client.py Потеряно соединение с сервером.
+2022-10-24 20:06:50,941 DEBUG    threading.py Была вызвана функция message_from_server с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48782), raddr=('127.0.0.1', 7777)>, 'listen') {}.Вызов из модуля __main__.Вызов из функции /usr/lib/python3.10/threading.py
+2022-10-24 20:06:50,941 DEBUG    threading.py Была вызвана функция message_from_server с параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 48790), raddr=('127.0.0.1', 7777)>, 'listen') {}.Вызов из модуля __main__.Вызов из функции /usr/lib/python3.10/threading.py
