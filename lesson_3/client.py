@@ -17,7 +17,7 @@ LOGGER = logging.getLogger('client')
 
 @log
 def create_exit_message(account_name):
-    """Функция создаёт словарь с сообщением о выходе"""
+
     return {
         ACTION: EXIT,
         TIME: time.time(),
@@ -61,7 +61,7 @@ def create_message(sock, account_name='Guest'):
         MESSAGE_TEXT: message
     }
     LOGGER.debug(f'Сформирован словарь сообщения: {message_dict}')
-    # return message_dict
+
     try:
         send_message(sock, message_dict)
         LOGGER.info(f'Отправлено сообщение для пользователя {to_user}')
@@ -86,7 +86,7 @@ def create_presence(account_name='Guest'):
 
 @log
 def user_interactive(sock, username):
-    """Функция взаимодействия с пользователем, запрашивает команды, отправляет сообщения"""
+
     print('help')
     while True:
         command = input('Введите команду: ')
@@ -98,7 +98,7 @@ def user_interactive(sock, username):
             send_message(sock, create_exit_message(username))
             print('Завершение соединения.')
             LOGGER.info('Завершение работы по команде пользователя.')
-            # Задержка неоходима, чтобы успело уйти сообщение о выходе
+
             time.sleep(0.5)
             break
         else:
