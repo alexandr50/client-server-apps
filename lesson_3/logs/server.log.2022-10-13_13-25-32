@@ -1,0 +1,4 @@
+2022-10-13 13:25:32,444 CRITICAL config_server_log.py Критическая ошибка
+2022-10-13 13:25:32,445 ERROR    config_server_log.py Ошибка
+2022-10-13 13:25:32,445 DEBUG    config_server_log.py Отладочная информация
+2022-10-13 13:25:32,445 INFO     config_server_log.py Информационное сообщение

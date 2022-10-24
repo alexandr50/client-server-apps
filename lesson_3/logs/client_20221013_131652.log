@@ -1,0 +1,4 @@
+2022-10-13 13:16:52,746 CRITICAL config_client_log.py Критическая ошибка
+2022-10-13 13:16:52,746 ERROR    config_client_log.py Ошибка
+2022-10-13 13:16:52,746 DEBUG    config_client_log.py Отладочная информация
+2022-10-13 13:16:52,746 INFO     config_client_log.py Информационное сообщение
