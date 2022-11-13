@@ -1,1 +1,1 @@
-2022-10-24 20:06:47,114 INFO     server.py Клиент ('127.0.0.1', 48770) отключился от сервера.
+2022-11-13 10:36:01,618 DEBUG    server.py Была вызвана функция arg_parser с параметрами () {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/server.py
