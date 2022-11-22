@@ -1,0 +1,1 @@
+2022-11-20 13:04:22,620 DEBUG    server.py Была вызвана функция arg_parser с параметрами ('7777', '') {}.Вызов из модуля __main__.Вызов из функции /home/alexandr/PycharmProjects/client-server-appps/lesson_3/server.py
